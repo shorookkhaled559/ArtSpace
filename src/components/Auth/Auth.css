@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(
+    135deg,
+    var(--color-bg) 0%,
+    var(--color-soft) 50%,
+    var(--color-accent) 100%
+  );
+  font-family: var(--font-main);
+}
+h2{
+  color: var( --color-primary);
+  font-family: var(--font-main);
+  font-weight: bold;
+}
+label{
+  color: var( --text-default);
+  font-weight: 600;
+}
+.login input{
+  width: 100%;
+  height: 35px;
+  padding: 0 4px;
+  border: 2px solid #e2dfdf;
+  border-radius: 5px;
+}
+.login button{
+  width: 100%;
+  height: 40px;
+  margin: 4px 0;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--color-primary);
+}
+.buttons button{
+
+  height: 40px;
+  margin: 4px 4px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--color-primary);
+}
+.buttons :first-of-type{
+  background-color: #fff;
+  color: black;
+  border: 2px solid #e2dfdf
+}
+a{
+  color: var(--color-primary);
+  font-weight: 600;
+}
