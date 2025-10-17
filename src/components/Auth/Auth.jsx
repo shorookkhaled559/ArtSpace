@@ -8,7 +8,7 @@ export default function Auth() {
       <div className="w-full max-w-md bg-white h-auto rounded-2xl shadow p-6 sm:p-8">
         <div className="flex items-center justify-center gap-3 flex-wrap mb-6">
           <img src={logo} alt="logo" className="h-[50px] sm:h-[60px] object-contain" />
-          <h2 className="text-3xl sm:text-4xl font-semibold text-[var(--color-primary)]">Art Space</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[var(--color-primary)]">Art Space</h2>
         </div>
 
 
@@ -39,7 +39,7 @@ export default function Auth() {
 
             <button 
               type="submit" 
-              className="w-full py-2"
+              className="w-full py-2 cursor-pointer"
             >
               Login
             </button>    
@@ -53,10 +53,10 @@ export default function Auth() {
         <h3 className="text-center my-3">Join us as</h3>
 
         <div className="buttons px-4 flex flex-col sm:flex-row gap-3">
-          <button className="w-full sm:w-1/2 py-2">
+          <button className="w-full sm:w-1/2 py-2 cursor-pointer ">
             Artist
           </button>
-          <button className="w-full sm:w-1/2 py-2">
+          <button className="w-full sm:w-1/2 py-2 cursor-pointer">
             Art Lover
           </button>
         </div>
