@@ -1,4 +1,4 @@
-body {
+.screen {
   background: linear-gradient(
     135deg,
     var(--color-bg) 0%,

@@ -4,7 +4,7 @@ import logo from '../../assets/palette-icon-free-vector-removebg-preview.png'
 
 export default function Auth() {
   return (
-    <div className="flex justify-center items-center min-h-screen  px-4">
+    <div className="flex justify-center items-center min-h-screen  px-4 screen">
       <div className="w-full max-w-md bg-white h-auto rounded-2xl shadow p-6 sm:p-8">
         <div className="flex items-center justify-center gap-3 flex-wrap mb-6">
           <img src={logo} alt="logo" className="h-[50px] sm:h-[60px] object-contain" />

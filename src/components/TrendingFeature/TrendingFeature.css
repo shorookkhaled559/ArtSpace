@@ -1,0 +1,31 @@
+.featured div h1,.trending div h1{
+  font-family: var(--font-alty);
+}
+.costum{
+  background-color: var(--color-bg);
+}
+.trending :first-of-type{
+  background-color: var(--color-bg) !important;
+}
+/* @keyframes pulseScale {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.06); }
+  100% { transform: scale(1); }
+} */
+.trend-item {
+  transform-origin: center;
+  animation: pulseScale 3s ease-in-out infinite;
+  will-change: transform;
+  transition: box-shadow 300ms ease;
+}
+.trend-item:hover {
+  animation-play-state: paused;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+h2{
+    font-family: var(--font-alty);
+    text-transform:uppercase;
+}
+p{
+        font-family: var(--font-alty);
+}

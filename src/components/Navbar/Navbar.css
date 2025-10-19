@@ -1,0 +1,9 @@
+.my_name{
+    font-family: var(--font-main);
+    color: var(--color-primary);
+}
+a{
+    font-family: var(--font-alt);
+    font-weight: 600;
+    color: black;
+}
